@@ -213,12 +213,20 @@ body {
     left: -75%;
 }
 
-@media (min-width: 1630px) {
+@media (max-width: 1630px) {
     .hero{
         display: none;
     }
     .not-for-mobile-devices{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        padding: 50px;
+        background: #0d2d2f;
+        color: #fff;
+        height: 100vh;
     }
     
 }
